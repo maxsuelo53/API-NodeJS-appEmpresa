@@ -11,6 +11,7 @@
  
  // ==> Rotas da API (Funcionario):
  funcionarioRoute = require('./routes/funcionario.routes');
+ setorRoute = require('./routes/setor.routes');
  
  app.use(express.urlencoded({ extended: true }));
  app.use(express.json());
@@ -18,5 +19,7 @@
  app.use(cors());
 
 app.use('/', funcionarioRoute);
+app.use('/', setorRoute);
+
  
  module.exports = app;
