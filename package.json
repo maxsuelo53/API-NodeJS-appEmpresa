@@ -25,6 +25,9 @@
   "bugs": {
     "url": "https://github.com/maxsuelo53/app-empresa/issues"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "homepage": "https://github.com/maxsuelo53/app-empresa#readme",
   "devDependencies": {
     "eslint": "^7.25.0",
